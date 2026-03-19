@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &1694192068016930110
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5100244822137463363, guid: 9fdb34c58e4434641a3f2fa24392c401,
+        type: 3}
+      propertyPath: m_Name
+      value: CustomRubikCubeInitializer
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100244822137463364, guid: 9fdb34c58e4434641a3f2fa24392c401,
+        type: 3}
+      propertyPath: _cubletPrefab
+      value: 
+      objectReference: {fileID: 1616036595786599786, guid: 5494768cd15e98e418ef6b7f24f57345,
+        type: 3}
+    - target: {fileID: 5100244822137463365, guid: 9fdb34c58e4434641a3f2fa24392c401,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100244822137463365, guid: 9fdb34c58e4434641a3f2fa24392c401,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100244822137463365, guid: 9fdb34c58e4434641a3f2fa24392c401,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100244822137463365, guid: 9fdb34c58e4434641a3f2fa24392c401,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100244822137463365, guid: 9fdb34c58e4434641a3f2fa24392c401,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100244822137463365, guid: 9fdb34c58e4434641a3f2fa24392c401,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100244822137463365, guid: 9fdb34c58e4434641a3f2fa24392c401,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100244822137463365, guid: 9fdb34c58e4434641a3f2fa24392c401,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100244822137463365, guid: 9fdb34c58e4434641a3f2fa24392c401,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5100244822137463365, guid: 9fdb34c58e4434641a3f2fa24392c401,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 5100244822137463366, guid: 9fdb34c58e4434641a3f2fa24392c401, type: 3}
+    - {fileID: 5100244822137463364, guid: 9fdb34c58e4434641a3f2fa24392c401, type: 3}
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 5100244822137463363, guid: 9fdb34c58e4434641a3f2fa24392c401,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 5126338769973106939}
+  m_SourcePrefab: {fileID: 100100000, guid: 9fdb34c58e4434641a3f2fa24392c401, type: 3}
+--- !u!1 &5856173825173593981 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 5100244822137463363, guid: 9fdb34c58e4434641a3f2fa24392c401,
+    type: 3}
+  m_PrefabInstance: {fileID: 1694192068016930110}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &5126338769973106939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5856173825173593981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a585698d94f55aa46bb68327b067259b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rubikCubePrefab: {fileID: 337904257855396140, guid: 7fa6e6a10a762a44fbe44cda5e5b6f99,
+    type: 3}
+  dimensions: 3
+  cubletPrefab: {fileID: 1616036595786599786, guid: 5494768cd15e98e418ef6b7f24f57345,
+    type: 3}
+  hideInvisibleSides: 1
+  maxHistorySize: 50
+  pipeData: []
+  shuffleOnStart: 1
+  shuffleCount: 20
+  shuffleSpeed: 10
+  allowRespawning: 1
+  minMaxCubeSize: {x: 2, y: 9}
+  zoomFactorPerUnit: 1
+  cameraMouseOrbit: {fileID: 0}
+  axisDisplay: {fileID: 0}
+  debugText: {fileID: 0}
+  onNewCubeBeforeInitialize:
+    m_PersistentCalls:
+      m_Calls: []
+  onNewCubeAfterInitialize:
+    m_PersistentCalls:
+      m_Calls: []
+  onCurrentCubeBeforeDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+  onCurrentCubeAfterDestroy:
+    m_PersistentCalls:
+      m_Calls: []
+  onCubeChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  onCubeSolved:
+    m_PersistentCalls:
+      m_Calls: []
